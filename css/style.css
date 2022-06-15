@@ -1,0 +1,51 @@
+header {
+  color: #000080;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+}
+
+a {
+  color: #000080;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+li {
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+p {
+  margin-top: 400px;
+  font-size: 60px;
+}
+
+.content {
+  position: relative;
+
+}
+
+.box {
+  width: 70vw;
+  height: 13vw;
+  background-color: #000080;
+
+}
+
+img {
+  position: absolute;
+  left: 50vw;
+  bottom: 40%;
+  width: 50vw;
+  height: 30vw;
+
+
+}
