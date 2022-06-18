@@ -1,3 +1,8 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -31,8 +36,8 @@ a {
   height: 400px;
 }
 .card-img img {
-  width: 60%;
-  display: block;
+  width: 600px;
+  display: flex;
   margin-top: 30px;
   float: right;
 }
@@ -135,7 +140,7 @@ a {
   font-family: "Indie Flower", cursive;
 }
 .about-img img {
-  width: 30vw;
+  width: 300px;
   position: absolute;
   top: 80px;
   right: 100px;
@@ -144,7 +149,7 @@ a {
 .about-text {
   position: absolute;
   top: 80px;
-  left: 100px;
+  left: 200px;
   line-height: 20px;
   font-size: 10px;
   color: #808080;
@@ -419,7 +424,7 @@ table th {
 }
 
 .footer-nav img {
-  width: 50vw;
+  width: 500px;
 }
 
 .footer-nav h3 {
