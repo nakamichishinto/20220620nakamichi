@@ -33,7 +33,7 @@ a {
   height: 500px;
 }
 .card-img img {
-  width: 800px;
+  width: 55%;
   display: flex;
   margin-top: 30px;
   float: right;
@@ -76,26 +76,26 @@ a {
   font-size: 20px;
 }
 
-.news {
-  margin-top: 150px;
-}
+
 .news-title {
-  margin-left: 260px; 
-  margin-bottom: 20px;
+  width: 100px;
+  margin: 0 auto ;
   color: #808080;
   line-height: 30px;
 }
+
 .news-title p {
   font-family: "Indie Flower", cursive;
   color: rgba(199, 21, 133);
 }
 .news-list {
+  
   width: 500px;
-  margin: 0  280px;
   font-size: 10px;
   border-top: 1px solid;
   line-height: 50px;
   color: #808080;
+  margin: 0 auto;
 }
 
 .news-list span {
@@ -387,13 +387,14 @@ background-color: white;
 
 
 .table-title {
-  margin-left: 260px;
-  margin-bottom: 20px;
+  width: 100px;
+  margin: 0 auto 20px;
   line-height: 20px;
   color: #808080;
 }
 
 .table-title p {
+  margin: 0 auto;
   font-size: 10px;
   color: rgba(199, 21, 133);
   font-family: "Indie Flower", cursive;
@@ -401,7 +402,7 @@ background-color: white;
 table {
   width: 500px;
   border-collapse: collapse;
-  margin: 0  0 60px 280px;
+  margin: 0 auto 50px;
 }
 
 table th,
@@ -431,7 +432,7 @@ table th {
 }
 
 .footer-nav img {
-  width: 750px;
+  width: 50vw;
 }
 
 .footer-nav h3 {
