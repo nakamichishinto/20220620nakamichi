@@ -277,21 +277,18 @@ a {
 
 .blog { 
   position: relative;
-  display: flex;
-  width: 70%;
+  
+  width: ;
   background-color:rgba(128, 128, 128, 0.1);
-  padding: 150px 250px ;
+  padding: 70px  108px 60px;
   margin: 50px auto;
   
-  
-
 }
 
 .blog-title {
-  position: absolute;
-  top: 15%;
-  left: 15%;
   
+  padding: 0px 100px 20px;
+
 }
 
 .blog-title p {
@@ -306,23 +303,22 @@ a {
   font-size: 20px;
 }
 
+
+.contents {
+  display: flex;
+  width: 90%;
+}
+
 .content {
-  position: relative;
-  display: inline-block;
   width: 300px;
   cursor: pointer;
   border: 1px solid #e9eaea;
   border-radius: 20px;
-  margin-left:  100px;
+  margin-left: 100px;
   background-color: white;
-
-
-  justify-content: space-around;
 }
 
 .content1 {
-position: relative;
-display: inline-block;
 width: 300px;
 cursor: pointer;
 border: 1px solid #e9eaea;
@@ -330,6 +326,7 @@ border-radius: 20px;
 margin-left: px;
 background-color: white;
 }
+
 .text-box {
   padding: 15px;
   font-size: 10px;
@@ -380,9 +377,8 @@ background-color: white;
   border: 1px solid rgba(199, 21, 133);
   background-color: white;
   padding: 10px 30px;
-  position: absolute;
-  bottom: 20px;
-  margin: 20px 450px;
+  width: 60px;
+  margin: 30px auto;
 }
 
 .blog-btn a {
